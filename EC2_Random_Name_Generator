@@ -4,7 +4,7 @@ import string
 # Allowed departments list
 allowed_departments = ["marketing", "accounting", "finops"]
 
-# Function that handles everything
+# Function that generates random names
 def generate_ec2_names():
     # Ask how many names
     num_instances = int(input("How many EC2 instance names would you like?\n"))
@@ -13,7 +13,7 @@ def generate_ec2_names():
     department_name = input("What is the name of your department?\n")
     # Check if department is allowed
     if department_name not in allowed_departments:
-        print("Sorry, that department is not allowed to use this name generator.")
+        print("Sorry, that department does not have access to this name generator.")
         return
 
     # Set the characters to use
