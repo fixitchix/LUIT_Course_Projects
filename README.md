@@ -1,2 +1,2 @@
-# LUIT_Course_Project_1
+# LUIT_Course_Projects
 Python projects done during LUIT course 2025
